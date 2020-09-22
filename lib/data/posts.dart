@@ -42,6 +42,15 @@ final List<User> connections = [
 
 final List<Post> posts = [
   Post(
+    user: currentUser,
+    caption:
+        'I have tried to depict the real Linkedin app, but I could not find some of the icons they used. For instance in the post composer section above, you see a pencil icon in the left. This is not the exact icon used in the offical app. I also could not find a clapping or an applause icon. Instead I used a simple hand in place of it. If you know where ti find those specidic icons please let me know, so I can finish the project. Thank you!',
+    timeAgo: '8hr',
+    imageUrl: null,
+    likes: 19,
+    comments: 7,
+  ),
+  Post(
     user: connections[2],
     caption: 'Art speaks to my soul!',
     timeAgo: '8hr',
