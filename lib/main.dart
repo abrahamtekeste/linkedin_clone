@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Linkein Clone',
       theme: ThemeData(
         // primaryColor: Color.fromRGBO(114, 118, 168, 0.8),
         // brightness: Brightness.dark,
